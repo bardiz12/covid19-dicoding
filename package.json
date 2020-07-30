@@ -1,0 +1,41 @@
+{
+  "name": "covid19pantau",
+  "version": "1.0.0",
+  "description": "Pantau Covid-19 di Indonesia",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "webpack-dev-server --config webpack.config.dev.js --open",
+    "build": "webpack --config webpack.config.production.js"
+  },
+  "author": "Bardizba",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jquery": "^3.5.1",
+    "pulltorefreshjs": "^0.1.20",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "bootstrap": "^4.5.0",
+    "chart.js": "^2.9.3",
+    "countup.js": "^2.0.6",
+    "mobile-pull-to-refresh": "^0.2.2",
+    "moment": "^2.27.0",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.3",
+    "snake-case": "^3.0.3"
+  }
+}
