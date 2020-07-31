@@ -49,7 +49,7 @@ createNavigationBottom((page, navigationBottom) => {
             $(`section#${page.id}-page`).removeClass("d-none")
             $(`section#${page.id}-page`).addClass("animate__fadeIn")
             state.page = page.id
-            
+            window.scrollTo(0,0)
         }, 250)
     }
 })
