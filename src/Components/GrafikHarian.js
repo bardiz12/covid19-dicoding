@@ -2,6 +2,7 @@ const { default: BaseComponent } = require("./BaseComponent");
 import moment from 'moment';
 import {getHarianData} from "../Api/IdCovid19"
 import Chart from "chart.js"
+import { beautifyNumber } from '../Utilities/Common';
 moment.locale("id")
 
 export default class GrafikHarian extends BaseComponent{
@@ -162,9 +163,9 @@ export default class GrafikHarian extends BaseComponent{
                     intersect:false,
                     callbacks: {
                         label: function(tooltipItems, data) {
-                        //console.log(data.datasets, tooltipItems);
-                        //   var str = data.datasets[tooltipItems.datasetIndex].label;
-                        return tooltipItems.yLabel;
+                        const index = tooltipItems.datasetIndex
+                        const dataset = data.datasets[index]
+                        return ` ${beautifyNumber(parseInt(tooltipItems.yLabel))} ${dataset.label}`;
                         },
                         
                     }

@@ -14,7 +14,6 @@ class NavigationBottom extends BaseComponent{
     }
 
     render(){
-        console.log(this.current_page)
         this.innerHTML = `
         <footer class="fixed-bottom navbar-light bg-light bottom-nav">
             <div class="row text-center">

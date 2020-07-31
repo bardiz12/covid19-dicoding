@@ -38,7 +38,6 @@ module.exports = {
             items[key] = elm
             container.appendChild(items[key])
         }
-        console.log(items)
         return items
     },
     changeAppBarTitle: (title) => {

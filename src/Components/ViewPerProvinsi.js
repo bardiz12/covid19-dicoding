@@ -49,7 +49,6 @@ class ViewPerProvinsi extends BaseComponent{
                     </tr>
                 `
             }
-            console.log(content)
 
             this.innerHTML = `
             <table class="table">
