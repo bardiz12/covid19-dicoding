@@ -31,7 +31,7 @@ module.exports = {
         
         for (let key in items){
             let elm = document.createElement("stat-card")
-            elm.setAttribute("class","col-lg-3 col-md-6 col-6 mb-2")
+            elm.setAttribute("class","col-lg-12 col-md-6 col-6 mb-2")
             elm.color = attr[key].color
             elm.title = attr[key].title
             elm.count = 0

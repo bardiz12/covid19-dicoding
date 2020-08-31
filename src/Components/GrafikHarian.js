@@ -35,7 +35,7 @@ export default class GrafikHarian extends BaseComponent{
                 </div>
             </div>
             <span class="mt-2 d-block">Menampilkan data dalam rentang ${this._sampai.diff(this._dari, "days")} hari</span>
-            <canvas width="auto" height="400"></canvas>
+            <canvas style="width:100%;min-height:400px" height="400"></canvas>
         </div>
         `   
         this.querySelector("#input-dari").addEventListener("change",(e) => {
@@ -170,9 +170,9 @@ export default class GrafikHarian extends BaseComponent{
                         
                     }
                     },
-                    responsive: true,
-                    maintainAspectRatio: true,
-                    height: 600
+                    responsive: false,
+                    maintainAspectRatio: false,
+                    
                 }
             });
         }

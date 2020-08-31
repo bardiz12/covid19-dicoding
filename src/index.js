@@ -59,7 +59,7 @@ const statCards = createStatsCards("#card-statistics")
 CovidModel.loadStats(statCards) //init stats
 
 //create grafik
-const grafikComponent = createGrafikHarian("section#home-page main")
+const grafikComponent = createGrafikHarian("#kotak-grafik")
 grafikComponent.loadData() //init data harian
 
 //create table per provinsi
