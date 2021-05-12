@@ -30,7 +30,7 @@
   "dependencies": {
     "animate.css": "^4.1.0",
     "bootstrap": "^4.5.0",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "countup.js": "^2.0.6",
     "mobile-pull-to-refresh": "^0.2.2",
     "moment": "^2.27.0",
