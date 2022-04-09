@@ -33,7 +33,7 @@
     "chart.js": "^2.9.3",
     "countup.js": "^2.0.6",
     "mobile-pull-to-refresh": "^0.2.2",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "popper.js": "^1.16.1",
     "regenerator-runtime": "^0.13.3",
     "snake-case": "^3.0.3"
